@@ -1,0 +1,73 @@
+.exerciseEdit {
+    margin: 20px 0 10px 0;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 19px 0 #00000021;
+    padding: 12px;
+    width: 100%;
+    min-width: 700px;
+    max-width: 1200px;
+    background: white;
+}
+
+.exerciseEdit > .header {
+    padding: 24px 0 8px 0;
+    font-size: 20pt;
+    color: dodgerblue;
+    font-weight: bolder;
+}
+
+.exerciseEdit > .setup {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exerciseEdit > .leap-scene {
+    max-height: 300px;
+}
+
+.exerciseEdit > .form-actions {
+    padding: 8px;
+}
+
+.exerciseEdit > .form-actions > button {
+    font-size: 13pt;
+    background: dodgerblue;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 16px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+span.label {
+    font-size: 14pt;
+}
+
+.motion-metadata {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0 24px 0;
+    opacity: 0.4;
+}
+
+.form-number {
+    text-align: center;
+    width: 40px;
+}
+
+input {
+    font-size: 14pt;
+    border: none;
+    background: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid dodgerblue;
+    height: 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

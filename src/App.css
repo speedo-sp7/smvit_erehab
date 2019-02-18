@@ -1,0 +1,43 @@
+body {
+  background: #f1ecf1;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f1ecf1;
+}
+
+.App-logo {
+  height: 10vmin;
+  margin: 0 16px;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: dodgerblue;
+  width: 100%;
+  padding: 16px;
+}
+
+.App-link {
+  color: dodgerblue;
+  font-size: 40pt;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

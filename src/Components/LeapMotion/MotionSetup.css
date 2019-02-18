@@ -1,0 +1,52 @@
+.motionSetup {
+    margin: 20px 0 10px 0;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 19px 0 #00000021;
+    width: 100%;
+    min-width: 700px;
+    max-width: 1200px;
+    background: white;
+    padding-top: 16px;
+    min-height: 405px;
+    display: flex;
+    flex-direction: column;
+}
+
+.motionSetup .buttonGroup {
+    font-size: 13pt;
+    border-radius: 4px;
+    color: white;
+    padding: 2px 8px;
+    margin: 2px;
+}
+
+.motionSetup button {
+    font-size: 13pt;
+    background: dodgerblue;
+    border-radius: 4px;
+    color: white;
+    padding: 2px 8px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.motionSetup .label {
+    font-size: 14pt;
+    margin: 10px 0 0 0;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.motionSetup button.gray {
+    background: gray;
+}
+
+.motionSetup button.red {
+    background: red;
+}
+
+.motionSetup button.green {
+    background: forestgreen;
+}
