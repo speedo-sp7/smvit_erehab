@@ -149,7 +149,6 @@ fabric.properties
 **/*.war
 **/node_modules
 **/dist
-**/public
 **/target
 **/cloud_config.json
 **/*log.*
